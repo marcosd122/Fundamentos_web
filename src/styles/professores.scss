@@ -1,0 +1,99 @@
+
+.theacher-container {
+  margin: 10px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.theacher-header {
+  text-align: center;
+}
+
+.theacher-title {
+  color: var(--cor-branco);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.theacher-description {
+  margin-bottom: 10px;
+  color:var(--cor-azul7);
+}
+
+.theacher-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;  
+    
+  // margin: 10px 150px;
+}
+
+.theacher-card {
+  
+  padding: 20px;
+  width: 320px;
+  background-color: var(--cor-bg-var);
+  margin: 1px;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  border-radius: 10%;
+  
+}
+
+.theacher-card-img {
+  height: 280px;
+  width: 100%;
+  background: var(--cor-branco);
+  object-fit: contain;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10%;
+}
+
+.theacher-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 130px
+}
+
+.t-title {
+  font-weight: 660;
+}
+
+.t-degree {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--cor-branco);
+}
+
+.t-description {
+  font-size: 14px;
+  color: var(--cor-branco);
+  font-style: italic;
+}
+
+.theacher-social-icons {
+  margin-top: 15px; 
+}
+
+i {
+  margin: 5px 5px;
+  font-size: 1.3rem;
+  
+  cursor: pointer;
+}
+
+
+
+i:hover {
+  color: var(--cor-azul);
+}
+

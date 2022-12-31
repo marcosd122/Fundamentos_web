@@ -1,14 +1,13 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import React from "react";
-import { MyRoute } from "./routes/Routes";
-import "./index.css";
+import ReactDOM from "react-dom/client";
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
+import App from "./App";
+import "remixicon/fonts/remixicon.css";
+import 'aos/dist/aos.css'
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <StrictMode>
-    <MyRoute />
-  </StrictMode>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
