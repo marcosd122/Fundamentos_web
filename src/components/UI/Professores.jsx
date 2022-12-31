@@ -21,26 +21,26 @@ function Professores() {
         <ProfessoresCard
           image={avatar01}
           name="Professor - 1"
-          work="Mestre"
+          degree="Mestre"
           description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos natus deleniti modi consequatur veritatis? Ullam?"
         />
         <ProfessoresCard
           image={avatar02}
           name="Professor - 2"
-          work="Especialista"
+          degree="Especialista"
           description="Placeat tenetur nulla ipsa modi, quos asperiores error nobis non voluptatibus dolor officiis inventore perspiciatis"
         />
         <ProfessoresCard
           image={avatar03}
           name="Professor - 3"
-          work="Doutor"
+          degree="Doutor"
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
         />
 
         <ProfessoresCard
           image={avatar02}
           name="Professor - 4"
-          work="Doutor"
+          degree="Doutor"
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
         />
       </div>
